@@ -1,7 +1,13 @@
 # MTA → Tokenizer Conditions
 
-Extract this folder into Foundry's `Data/modules/`, restart Foundry and enable
-**MTA → Tokenizer Conditions** in Manage Modules. Requires Foundry 14, mta, and
+In Foundry Setup → Add-on Modules → Install Module, paste this Manifest URL:
+
+```text
+https://raw.githubusercontent.com/m00nwtchr/CofD-Tokenizer-Bridge/master/module.json
+```
+
+Install, then enable **MTA → Tokenizer Conditions** in your world's Manage Modules.
+The download uses GitHub's source ZIP for master. Requires Foundry 14, mta, and
 Tokenizer 2 with the documented `conditions.setOnToken/onToken/all` API (1.7+).
 Enable Tokenizer's **Show conditions on map tokens**.
 
