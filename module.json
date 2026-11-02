@@ -2,11 +2,28 @@
   "id": "mta-tokenizer-bridge",
   "title": "MTA → Tokenizer Conditions",
   "description": "Sync Chronicles of Darkness Condition and Tilt Items to Tokenizer 2 rings using its existing mappings.",
-  "version": "0.1.0",
-  "compatibility": {"minimum": "14"},
-  "esmodules": ["bridge.js"],
+  "version": "0.1.1",
+  "compatibility": {
+    "minimum": "14"
+  },
+  "url": "https://github.com/m00nwtchr/CofD-Tokenizer-Bridge",
+  "manifest": "https://raw.githubusercontent.com/m00nwtchr/CofD-Tokenizer-Bridge/master/module.json",
+  "download": "https://github.com/m00nwtchr/CofD-Tokenizer-Bridge/archive/refs/heads/master.zip",
+  "esmodules": [
+    "bridge.js"
+  ],
   "relationships": {
-    "systems": [{"id": "mta", "type": "system"}],
-    "requires": [{"id": "tokenizer-2", "type": "module"}]
+    "systems": [
+      {
+        "id": "mta",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "tokenizer-2",
+        "type": "module"
+      }
+    ]
   }
 }
